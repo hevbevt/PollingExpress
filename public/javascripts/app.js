@@ -1,7 +1,7 @@
 /**
  * Created by hevbevt on 16-7-6.
  */
-var polls = angular.module('polls', []);
+var polls = angular.module('polls', ['ngRoute']);
 polls.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
         .when('/polls', {
